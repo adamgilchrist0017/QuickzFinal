@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codehex2k17.rahul.quickzfinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoBar" />
+        <activity
+            android:name=".login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.coderefer.androidsplashscreenexample.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".scan"
+            android:label="Scan"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoBar" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+
+        <activity android:name=".addcart" />
+        <activity android:name=".cart" />
+        <activity android:name=".finalcart" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_ILgsfZCZoFIKMb" />
+
+        <activity android:name=".payment" />
+        <activity android:name=".Register"></activity>
+    </application>
+
+</manifest>

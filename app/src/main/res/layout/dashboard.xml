@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/box1"
+        android:layout_marginTop="12dp"
+        android:layout_width="130sp"
+        android:layout_height="200sp"
+        android:layout_marginLeft="9dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/daru" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/box2"
+        android:layout_width="180sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/box1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="15dp"
+            android:text="Vidhant Matta\nmattavidhant@gmail.com"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="120dp"
+
+            android:layout_height="30dp"
+            android:background="@drawable/freecharge" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_toRightOf="@id/box2"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/logout"
+            android:id="@+id/logout1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/box3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/cameraicon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/nicebutton">
+
+            <Button
+                android:id="@+id/scan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/nicebutton"
+                android:text="scan"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/box4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/box3"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="287dp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/nicebutton2"
+            android:text="my cart"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/cart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/box5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/box4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/payment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/nicebutton">
+
+            <Button
+                android:id="@+id/payment"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/nicebutton"
+                android:text="make payment"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/box6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/box5"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="287dp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/nicebutton2"
+            android:text="shopping history"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="0.62" />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/history" />
+
+    </LinearLayout>
+
+</RelativeLayout>

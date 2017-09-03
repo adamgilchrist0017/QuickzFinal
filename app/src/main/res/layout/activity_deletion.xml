@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codehex2k17.rahul.quickzfinal.deletion">
+    <Button
+        android:layout_width="50dp"
+        android:alpha="0"
+        android:layout_height="50dp"
+        android:id="@+id/btn"/>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="700dp">
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/btn2"
+            android:layout_marginLeft="50dp"
+            android:alpha="0"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="300dp"
+            android:alpha="0"
+            android:id="@+id/btndelhandle"/>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
