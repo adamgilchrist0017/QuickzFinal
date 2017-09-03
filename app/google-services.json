@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "384808551467",
+    "firebase_url": "https://quickzfinal.firebaseio.com",
+    "project_id": "quickzfinal",
+    "storage_bucket": "quickzfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384808551467:android:ae6aa0e92f833766",
+        "android_client_info": {
+          "package_name": "com.codehex2k17.rahul.quickzfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384808551467-mf1ik6kri5mmi11s7nlv02610vh8s7bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codehex2k17.rahul.quickzfinal",
+            "certificate_hash": "399470bba30622d40c319318c3dd9c95d2c22350"
+          }
+        },
+        {
+          "client_id": "384808551467-jdmdqpei81dhrtcquaiobe08or8heivj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codehex2k17.rahul.quickzfinal",
+            "certificate_hash": "e1f7b2ce0f0deebf4e9e8d78882869f8bf12c034"
+          }
+        },
+        {
+          "client_id": "384808551467-tcjhipqv6hs41hkl3gcptdniueausvgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALbtkJCiQfzUevPavPs_utTe_KVj0sQWo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384808551467-tcjhipqv6hs41hkl3gcptdniueausvgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

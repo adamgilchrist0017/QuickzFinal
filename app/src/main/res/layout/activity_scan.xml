@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codehex2k17.rahul.quickzfinal.scan">
+
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="171dp"
+        android:text="scan"
+        tools:text="scan" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cart"
+        tools:text="cart"
+        android:layout_above="@+id/scan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp" />
+
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cart"
+        android:layout_alignLeft="@+id/cart"
+        android:layout_alignStart="@+id/cart"
+        android:layout_marginBottom="30dp"
+        android:text="payment"/>
+
+</RelativeLayout>

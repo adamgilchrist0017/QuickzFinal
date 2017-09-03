@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuickZ</string>
+    <string name="image">Image</string>
+    <string name="introoneheader">Tired of standing in queues?</string>
+    <string name="introonemain">We have got your back!</string>
+    <string name="introtwoheader">Running late?</string>
+    <string name="introtwomain">Dont worry we have come to your rescue.</string>
+    <string name="introthreeheader">Out Of cash? Yet again?</string>
+    <string name="introthreemain">Dont worry we have got your six! We accept digital payments.</string>
+    <string name="introfourheader">Curious Yet?</string>
+    <string name="introfourmain">Come check us out.</string>
+    <string name="gridtext">Abhit Roy</string>
+    <string name="scan">scan</string>
+    <string name="records">Records</string>
+    <string name="payment">Payment</string>
+    <string name="cart">Cart</string>
+</resources>
